@@ -778,6 +778,12 @@ $hardware_info = array(
                      'battery' => '2900 mAh',
                      'display' => '5.0 inch, 1920x1080 pixel(441ppi)',
                      'cpuarch' => 'Arm'),
+    'c8817d' => array('cpu' => 'Qualcomm® Snapdragon™ 410',
+                        'ram' => '1GB',
+                        'ROM' => '8GB',
+                        'battery' => '3000 mAh',
+                        'display' => '5.0 inch, 1280x720 pixel(294ppi)',
+                        'cpuarch' => 'Arm 64'),
 );
 
 foreach ($devices_info as $k => $val) {
