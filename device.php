@@ -778,6 +778,12 @@ $hardware_info = array(
                      'battery' => '2900 mAh',
                      'display' => '5.0 inch, 1920x1080 pixel(441ppi)',
                      'cpuarch' => 'Arm'),
+    'z00a' => array('cpu' => 'Intel® Atom™ Z3560',
+                        'ram' => '2GB/4GB of LP-DDR3',
+                        'ROM' => '16GB/32GB/64GB',
+                        'battery' => '3000 mAh',
+                        'display' => '5.5 inch, 1920x1080 pixel(401ppi)',
+                        'cpuarch' => 'X86'),
 );
 
 foreach ($devices_info as $k => $val) {
